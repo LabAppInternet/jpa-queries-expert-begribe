@@ -45,6 +45,8 @@ public class FcgUserService {
     public User getDomainUser(String username) {
         // TODO 10.1: get the user (domain) given her username. If the user does not exist, throw a UserDoesNotExistsException
         //  You can solve this exercise without leaving this file
+
+        //return userRepository.findById(username).orElseThrow(() -> new UserDoesNotExistsException());
         return null;
     }
 
